@@ -7,3 +7,5 @@
       - fish
       - docker.io
       - golang
+      - nodejs
+      - npm
