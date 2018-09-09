@@ -8,4 +8,6 @@
   connection: local
   gather_facts: yes
   roles:
+    - apt
+    - fish
     - reboot

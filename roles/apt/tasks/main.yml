@@ -1,0 +1,9 @@
+- block:
+  - name: install apt package
+    apt: name={{ item }} state=present update_cache=yes
+    become: true
+    with_items:
+      - vim
+      - fish
+      - docker.io
+      - golang

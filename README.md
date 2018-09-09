@@ -11,3 +11,16 @@ sudo apt-get install ansible
 # run ansible-playbook
 ansible-playbook -i localhost site.yml -vv --ask-become-pass
 ```
+## setting fish
+```bash
+# fisherman
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+# oh my fish
+curl -L http://get.oh-my.fish | fish
+# ghq
+fisher install decors/fish-ghq
+# peco
+omf install peco
+# bob the fish
+omf install bobthefish
+```
