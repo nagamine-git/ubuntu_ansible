@@ -24,3 +24,8 @@ omf install peco
 # bob the fish
 omf install bobthefish
 ```
+
+# install ssh
+```
+sudo aptitude install ssh
+```

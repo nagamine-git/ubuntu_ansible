@@ -9,3 +9,4 @@
       - golang
       - nodejs
       - npm
+      - aptitude

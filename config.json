@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Ricty, Ricty for Powerline, Andale Mono, Menlo, Monaco, Consolas, 'Courier New",  
+    "editor.fontSize": 14,
+    "editor.lineHeight": 21,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "Monokai",
+    "workbench.startupEditor": "newUntitledFile"
+}
