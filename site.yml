@@ -1,0 +1,11 @@
+---
+# file: site.yml
+
+# ---------------
+# localhost
+# ---------------
+- hosts: localhost
+  connection: local
+  gather_facts: yes
+  roles:
+    - reboot
