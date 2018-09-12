@@ -1,4 +1,8 @@
 - block:
+  - name: set up the stable repository
+    shell: add-apt-repository ppa:otto-kesselgulasch/gimp
+    become: true
+
   - name: install apt package
     apt: name={{ item }} state=present update_cache=yes
     become: true
@@ -6,6 +10,7 @@
       - vim
       - fish
       - docker.io
+      - gimp
       - golang
       - nodejs
       - npm
