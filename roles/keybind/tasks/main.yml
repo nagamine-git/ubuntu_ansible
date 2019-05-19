@@ -1,0 +1,4 @@
+- block:
+  # fish to default
+  - name: "disable capslock"
+    shell: "gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']""
